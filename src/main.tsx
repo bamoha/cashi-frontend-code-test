@@ -4,6 +4,7 @@ import { setupWorker } from "msw/browser";
 import App from "./App.tsx";
 import "./index.css";
 import { apiHandlers } from "./api.ts";
+import "./i18n/config";
 
 const worker = setupWorker(...apiHandlers);
 

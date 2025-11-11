@@ -1,0 +1,93 @@
+{
+  "common": {
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign in",
+    "signOut": "Logout",
+    "forgotPassword": "Forgot Password?",
+    "welcome": "Welcome to CashiTest",
+    "authenticated": "You are successfully authenticated!",
+    "appName": "CashiTest",
+    "logoutTitle": "You are about to logout",
+    "logoutMessage": "Are you sure you want to logout?",
+    "proceed": "Proceed",
+    "cancel": "Cancel"
+  },
+  "errors": {
+    "badRequest": "Invalid request. Please check your input and try again.",
+    "unauthorized": "Your session has expired. Please log in again to continue.",
+    "forbidden": "You don't have permission to access this resource. Please contact support if you believe this is an error.",
+    "notFound": "The requested resource could not be found. It may have been moved or deleted.",
+    "serverError": "We're experiencing server issues. Please try again in a few moments. If the problem persists, contact support.",
+    "networkError": "Unable to connect to the server. Please check your internet connection and try again.",
+    "unexpectedError": "An unexpected error occurred. Please refresh the page or try again later. If the problem continues, contact support.",
+    "requestFailed": "The request failed with error code {{status}}. Please try again or contact support if the issue persists."
+  },
+  "login": {
+    "title": "Sign in",
+    "subtitle": "Sign in to your account",
+    "emailPlaceholder": "Enter email",
+    "passwordPlaceholder": "Enter password",
+    "emailRequired": "Email is required",
+    "emailInvalid": "Invalid email address",
+    "passwordRequired": "Password is required",
+    "error": "Login failed. Please check your credentials.",
+    "success": "Login successful!"
+  },
+  "validation": {
+    "emailInvalid": "Invalid email address",
+    "passwordRequired": "Password is required"
+  },
+  "forgotPassword": {
+    "title": "Forgot Password",
+    "subtitle": "Enter your email address and we'll send you a link to reset your password.",
+    "emailPlaceholder": "Enter your email",
+    "submitButton": "Send Reset Link",
+    "successTitle": "Check your email",
+    "successMessage": "We've sent a password reset link to your email address.",
+    "backToLogin": "Back to Login"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "accountBalance": "Account Balance",
+    "quickStats": "Quick Stats",
+    "income": "Income",
+    "expenses": "Expenses",
+    "recentTransactions": "Recent Transactions",
+    "viewAll": "View All",
+    "date": "Date",
+    "merchant": "Merchant",
+    "amount": "Amount",
+    "error": "Failed to load dashboard data. Please try again later.",
+        "goodMorning": "Good morning",
+        "goodAfternoon": "Good afternoon",
+        "goodEvening": "Good evening",
+        "goodNight": "Good night"
+      },
+      "transactions": {
+        "title": "Transactions",
+        "subtitle": "View and filter your transaction history",
+        "filterByMerchant": "Filter by Merchant",
+        "filterByDate": "Filter by Date",
+        "merchantPlaceholder": "Search by merchant name",
+        "datePlaceholder": "Select date",
+        "clearFilters": "Clear Filters",
+        "noTransactions": "No transactions found",
+        "error": "Failed to load transactions. Please try again later.",
+        "showingResults": "Showing {{start}} to {{end}} of {{total}} results",
+        "backToList": "Back to Transactions",
+        "goBack": "Go Back",
+        "detailTitle": "Transaction Details",
+        "detailError": "Failed to load transaction details. Please try again later.",
+        "detailInformation": "Transaction Information",
+        "detailDate": "Date",
+        "detailMerchant": "Merchant",
+        "detailDescription": "Description",
+        "detailAmount": "Amount",
+        "detailAccount": "Account",
+        "detailStatus": "Status",
+        "detailPaymentMethod": "Payment Method",
+        "detailReference": "Reference Number"
+      }
+    }
+
