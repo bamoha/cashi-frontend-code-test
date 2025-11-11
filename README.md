@@ -422,6 +422,18 @@ src/
 
 ---
 
+## 🌐 Live Deployment
+
+The application is deployed and available at:
+
+**🔗 [https://ubiquitous-queijadas-6e296d.netlify.app](https://ubiquitous-queijadas-6e296d.netlify.app)**
+
+The deployment is hosted on Netlify with automatic builds from the main branch. The application includes:
+- Full SPA routing support
+- Optimized production build
+- Fast global CDN delivery
+- Automatic HTTPS
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -470,6 +482,52 @@ npm run lint         # Run ESLint
 ```
 
 ---
+
+## 🚢 Deployment
+
+### Netlify Deployment
+
+This project is configured for deployment on Netlify with a `netlify.toml` configuration file.
+
+**Deployment Link:** [https://ubiquitous-queijadas-6e296d.netlify.app](https://ubiquitous-queijadas-6e296d.netlify.app)
+
+#### Quick Deploy Options
+
+**Option 1: Via Netlify Dashboard (Recommended)**
+1. Push your code to GitHub/GitLab/Bitbucket
+2. Go to [app.netlify.com](https://app.netlify.com)
+3. Click "Add new site" → "Import an existing project"
+4. Connect your repository
+5. Netlify will auto-detect settings from `netlify.toml`
+6. Click "Deploy site"
+
+**Option 2: Via Netlify CLI**
+```bash
+npm install -g netlify-cli
+netlify login
+netlify init
+netlify deploy --prod
+```
+
+**Option 3: Drag & Drop**
+```bash
+npm run build
+# Then drag the 'dist' folder to netlify.com/drop
+```
+
+#### Build Configuration
+
+The `netlify.toml` file includes:
+- **Build command**: `npm run build`
+- **Publish directory**: `dist`
+- **SPA redirects**: All routes redirect to `index.html` for React Router
+- **Node version**: 20
+
+#### Environment Variables
+
+If you need to set environment variables:
+1. Go to Site settings → Environment variables
+2. Add any required variables (e.g., API endpoints)
 
 ## 🔐 Authentication
 
