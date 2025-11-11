@@ -48,10 +48,7 @@ describe('DatePicker', () => {
   it('should show clear button when date is selected', () => {
     const date = '2024-01-15'
     render(<DatePicker value={date} onChange={mockOnChange} />)
-    // The clear button is rendered but may be nested, so we check for its presence differently
-    const clearButton = screen.queryByLabelText('Clear date')
-    // Note: Due to nested button structure in Radix UI, this may need adjustment
-    // The clear functionality is tested in the clear button click test
+    expect(screen.queryByLabelText('Clear date')).toBeInTheDocument()
   })
 
   it('should not show clear button when no date is selected', () => {
