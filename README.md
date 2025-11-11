@@ -199,3 +199,14 @@ This project prioritizes performance, clarity, accessibility, and maintainabilit
 
 <img width="520" height="175" alt="image" src="https://github.com/user-attachments/assets/b9ee6164-6575-460e-b471-ce2974a9fc4f" />
 
+<img width="1717" height="988" alt="image" src="https://github.com/user-attachments/assets/e130182b-ab24-4850-8531-5f3576c76397" />
+
+<img width="1723" height="982" alt="image" src="https://github.com/user-attachments/assets/6c52c45e-5103-40c6-ac7f-afc23775c0aa" />
+
+<img width="1709" height="985" alt="image" src="https://github.com/user-attachments/assets/89326aac-09a4-46a0-ba03-380f71b17523" />
+
+<img width="1712" height="975" alt="image" src="https://github.com/user-attachments/assets/57db6dc4-9f42-4071-a38a-0e730adc0700" />
+
+<img width="1716" height="982" alt="image" src="https://github.com/user-attachments/assets/9ad1a7de-82b7-441e-a61a-5d08104e780b" />
+
+
