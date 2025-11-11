@@ -196,3 +196,6 @@ These additions were implemented to make the app feel closer to a real productio
 📄 Notes
 
 This project prioritizes performance, clarity, accessibility, and maintainability.
+
+<img width="520" height="175" alt="image" src="https://github.com/user-attachments/assets/b9ee6164-6575-460e-b471-ce2974a9fc4f" />
+
