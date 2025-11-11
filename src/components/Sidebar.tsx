@@ -82,6 +82,7 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
               <li key={item.path}>
                 <Link
                   to={item.path}
+                  onClick={() => onClose()}
                   className={cn(
                     "sidebar-item flex items-center gap-3 px-4 py-3 rounded-lg transition-colors",
                     isActive
